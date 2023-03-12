@@ -44,7 +44,7 @@ button {
 
 .main-acc {
  border: none;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+ 
   
   padding: 28px;
 }
@@ -113,7 +113,7 @@ button {
  background-color: rgb(245, 245, 235);
  
   border-radius: 0px 0px 6px 6px;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+
 }
 
 
