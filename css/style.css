@@ -24,6 +24,9 @@ h1 {
 .wrapper:hover .accordion {
  color: rgb(29, 28, 27);
 }
+.wrapper:hover .accordion:focus {
+  color: rgb(0, 89, 217);
+}
 .wrapper:hover .accordion::after {
   content: "\002B";
   color: black;
@@ -52,6 +55,8 @@ button {
   font-family: "Inconsolata", monospace;
   font-size: 20px;
 }
+
+
 
 .main-acc {
  border: none;
