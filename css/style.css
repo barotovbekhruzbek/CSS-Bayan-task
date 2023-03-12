@@ -24,6 +24,17 @@ h1 {
 .wrapper:hover .accordion {
  color: rgb(29, 28, 27);
 }
+.wrapper:hover .accordion::after {
+  content: "\002B";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 28px;
+}
+.wrapper:hover .active::after {
+  content: "\00D7";
+}
 button {
  border: none;
 }
@@ -75,16 +86,11 @@ button {
 
 
 .accordion:after {
-  content: "\002B";
-  color: black;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  font-size: 28px;
+ content: "";
 }
 
 .active:after {
-  content: "\00D7";
+  content: "";
 }
 
 .panel {
